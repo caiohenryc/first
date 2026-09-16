@@ -1,3 +1,29 @@
-#texto {
-    font-size: 300px;
+body {
+    background-image: url(fundodosite.png) ;
+    background-repeat: repeat;
+}
+
+.topo{
+    background-color: #5C8F3A;
+    border-radius: 12px;
+    display: block;
+    justify-content:center;
+    text-align: center; 
+    margin: 80px;
+}
+
+.secao {
+    background-color: #8B5A2B;
+    width: 200px;
+    
+}
+img {
+    height: 180px;
+    display: flex;
+    
+}
+.produtos {
+    padding: 0 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
