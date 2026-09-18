@@ -1,6 +1,7 @@
 body {
     background-image: url(fundodosite.png) ;
     background-repeat: repeat;
+    margin: 0;
 }
 
 .topo{
@@ -17,8 +18,15 @@ body {
     width: 200px;
     
 }
+h2 {
+    font-family: fantasy;
+}
+li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 img {
     height: 180px;
+    width: 100%;
     display: flex;
     
 }
@@ -26,4 +34,19 @@ img {
     padding: 0 120px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+button {
+    background-color: #FFD12E;
+    border-radius: 12px;
+    margin: 10px  0;
+}
+a {
+    
+    color: #2B1B12;
+    text-decoration: none;
+}
+footer{
+    background-color: #C28B5A;
+    margin: 0;
 }
