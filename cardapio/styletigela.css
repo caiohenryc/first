@@ -1,7 +1,20 @@
 body {
     background-color: #4A0E5C;
 }
+.card{
+    background-color: #45057a;
+    width: 200px;
+}
 img {
     width: 100px;
     height: 120px;
+}
+button{
+    background-color: #FFD12E;
+    border-radius: 12px;
+    margin: 10px  0;
+}
+footer{
+    background-color: #C28B5A;
+    margin: 0;
 }
