@@ -1,9 +1,16 @@
+.topo{
+    background-color: #2B1B12;
+    color: white;
+    align-items: center; 
+    padding: 20px;
+}
 body {
     background-color: #4A0E5C;
 }
 .card{
     background-color: #45057a;
-    width: 200px;
+    margin-top: 200px;
+    
 }
 img {
     width: 100px;
@@ -14,7 +21,10 @@ button{
     border-radius: 12px;
     margin: 10px  0;
 }
-footer{
-    background-color: #C28B5A;
-    margin: 0;
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #C28B5A;
 }
